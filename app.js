@@ -37,6 +37,6 @@ app.post("/", (req, res) => {
     });
 });
 
-app.listen(5000, () => {
-  console.log("Server chalu ha 5000 ma");
+app.listen(3000, () => {
+  console.log("Server running at 3000");
 });
